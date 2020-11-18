@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Cronometro</title>
+</head>
+
+<body>
+    <audio id="sound" src="som/alarme.mp3" style="display: none;"></audio>
+
+    <div class="container">
+        <h2>Minutos:</h2>
+        <select name="minutos" id="minutos"></select>
+
+        <h2>Segundos:</h2>
+        <select name="segundos" id="segundos"></select>
+        <br>
+        <button class="comecar">Começar!</button>
+        <button class="parar">Parar Som!</button>
+        <div id="display">
+            <h3></h3>
+        </div>
+    </div>
+    <script src="script/script.js"></script>
+</body>
+
+</html>
